@@ -34,7 +34,7 @@ public class LocadoraVeiculos {
 					Veiculo veiculo = veiculos.get(i);
 					if (placa.equals(veiculo.getPlaca())) {
 						System.out.println("O veículo ja esta cadastrado.");
-						continue;
+						return;
 					}
 				}
 				System.out.println("Digite o Ano: ");
